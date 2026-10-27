@@ -1,0 +1,22 @@
+AUSPIFY TECHNOLOGIES — TASK 3: RECOMMENDATION SYSTEM
+====================================================
+Titles processed: 8,790
+Unique titles processed: 8,786
+Content features used: title, director, listed_in, country
+TF-IDF feature count: 43,405
+Sample input titles evaluated: 5
+Recommendations generated: 50
+Unique recommended titles in sample output: 50
+Unique-title recommendation coverage in sample output: 0.57%
+Average unique recommendations per sample title: 10.00
+Mean cosine similarity score in sample output: 0.2624
+
+Method:
+- Text was lowercased, punctuation removed, and whitespace normalized.
+- Content fields were combined into a single text profile.
+- TF-IDF transformed the text into numeric feature vectors.
+- Cosine similarity ranked titles by content-profile similarity.
+
+Evaluation caveat:
+- This is a content-based prototype. No user ratings, click history, or relevance labels are present, so offline precision/recall cannot be measured reliably.
+- Coverage and mean similarity summarize only the generated sample recommendations; they are not proof of user satisfaction.

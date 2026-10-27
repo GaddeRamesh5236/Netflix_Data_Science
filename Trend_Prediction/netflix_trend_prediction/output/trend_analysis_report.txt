@@ -1,0 +1,26 @@
+AUSPIFY TECHNOLOGIES — TASK 4: TREND PREDICTION ANALYSIS
+===========================================================
+Rows in source dataset: 8,790
+Records with valid release_year: 8,790
+Release-year range: 1925–2021
+Year with highest title count in this dataset: 2018 (1,146 titles)
+Title count at latest release year (2021): 592
+
+Forecast model:
+Linear Regression fitted to yearly counts. The latest 20% of years (minimum one year) were held out for a chronological test.
+Holdout MAE: 381.91 titles
+Holdout RMSE: 536.65 titles
+
+Future trend estimates:
+- 2022: approximately 324 titles (model estimate)
+- 2023: approximately 329 titles (model estimate)
+- 2024: approximately 333 titles (model estimate)
+- 2025: approximately 338 titles (model estimate)
+- 2026: approximately 343 titles (model estimate)
+
+Interpretation and limitations:
+- These counts represent titles in the supplied Netflix dataset grouped by release_year; they do not represent Netflix's actual yearly additions to its platform.
+- The dataset has a latest release year, so forecasts beyond that year are extrapolations and should be treated as illustrative.
+- Linear regression is a simple baseline and may not capture nonlinear patterns, catalog changes, or external factors.
+- Negative model predictions are clipped to zero before reporting.
+- The holdout metrics measure error on the final portion of the historical series and do not guarantee future accuracy.

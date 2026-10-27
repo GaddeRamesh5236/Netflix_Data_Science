@@ -1,0 +1,7 @@
+SOURCE DATA PROFILE
+===================
+Rows: 8790
+Columns: 10
+Columns: show_id, type, title, director, country, date_added, release_year, rating, duration, listed_in
+
+This is a pre-run snapshot of the supplied CSV structure. Run src/clean_netflix.py to generate the cleaning outputs.

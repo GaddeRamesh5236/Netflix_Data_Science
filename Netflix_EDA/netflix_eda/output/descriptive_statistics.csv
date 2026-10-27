@@ -1,0 +1,11 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+show_id,8790,8790,s1,1,,,,,,,
+type,8790,2,Movie,6126,,,,,,,
+title,8790,8787,9-Feb,2,,,,,,,
+director,8790,4528,Not Given,2588,,,,,,,
+country,8790,86,United States,3240,,,,,,,
+date_added,8790,1713,1/1/2020,110,,,,,,,
+release_year,8790.0,,,,2014.183162684869,8.825466028347591,1925.0,2013.0,2017.0,2019.0,2021.0
+rating,8790,14,TV-MA,3205,,,,,,,
+duration,8790,220,1 Season,1791,,,,,,,
+listed_in,8790,513,"Dramas, International Movies",362,,,,,,,

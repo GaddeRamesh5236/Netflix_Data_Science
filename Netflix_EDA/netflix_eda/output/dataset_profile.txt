@@ -1,0 +1,49 @@
+AUSPIFY TECHNOLOGIES — TASK 2: NETFLIX EDA
+================================================
+Dataset rows: 8790
+Dataset columns: 10
+
+Column names and data types:
+show_id         object
+type            object
+title           object
+director        object
+country         object
+date_added      object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+
+Missing values by column:
+show_id         0
+type            0
+title           0
+director        0
+country         0
+date_added      0
+release_year    0
+rating          0
+duration        0
+listed_in       0
+
+Duplicate rows:
+0
+
+Numeric summary:
+       release_year
+count   8790.000000
+mean    2014.183163
+std        8.825466
+min     1925.000000
+25%     2013.000000
+50%     2017.000000
+75%     2019.000000
+max     2021.000000
+
+Categorical summary:
+       show_id   type  title   director        country date_added rating  duration                     listed_in
+count     8790   8790   8790       8790           8790       8790   8790      8790                          8790
+unique    8790      2   8787       4528             86       1713     14       220                           513
+top         s1  Movie  9-Feb  Not Given  United States   1/1/2020  TV-MA  1 Season  Dramas, International Movies
+freq         1   6126      2       2588           3240        110   3205      1791                           362

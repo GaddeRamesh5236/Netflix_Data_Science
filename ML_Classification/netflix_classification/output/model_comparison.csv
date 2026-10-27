@@ -1,0 +1,4 @@
+model,accuracy
+Random Forest,0.9994
+Logistic Regression,0.9972
+Dummy baseline,0.6968

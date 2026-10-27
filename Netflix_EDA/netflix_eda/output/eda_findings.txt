@@ -1,0 +1,28 @@
+AUSPIFY TECHNOLOGIES — TASK 2: EDA FINDINGS
+============================================
+Dataset size: 8,790 rows × 10 columns.
+Exact duplicate rows: 0.
+Content type distribution:
+- Movie: 6,126 titles (69.7%).
+- TV Show: 2,664 titles (30.3%).
+Most frequently listed country: United States (3,240 title mentions).
+Top 5 countries:
+- United States: 3,240
+- India: 1,057
+- United Kingdom: 638
+- Pakistan: 421
+- Not Given: 287
+Most frequent category: International Movies (2,752 title mentions).
+Top 5 categories:
+- International Movies: 2,752
+- Dramas: 2,426
+- Comedies: 1,674
+- International TV Shows: 1,349
+- Documentaries: 869
+Release year range: 1925–2021.
+Most common release year: 2018.
+
+Interpretation notes:
+- Country and category fields may contain multiple comma-separated values; counts above split these into individual mentions.
+- Release year describes the year a title was released, not necessarily the date it was added to Netflix.
+- These are descriptive findings from the supplied dataset, not evidence of Netflix's current catalog or future performance.

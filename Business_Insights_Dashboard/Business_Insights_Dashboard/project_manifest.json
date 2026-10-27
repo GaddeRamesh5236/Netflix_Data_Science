@@ -1,0 +1,12 @@
+{
+  "project": "Auspify Task 6 - Netflix Business Insights Dashboard",
+  "task_guide": "Task 6: Data Science Business Insights Dashboard",
+  "features": [
+    "data analysis",
+    "predictive model",
+    "interactive dashboard",
+    "business recommendations",
+    "professional report"
+  ],
+  "dataset_file": "data/netflix_titles.csv"
+}

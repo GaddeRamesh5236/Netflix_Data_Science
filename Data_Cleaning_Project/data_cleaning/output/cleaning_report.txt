@@ -1,0 +1,33 @@
+AUSPIFY TECHNOLOGIES — TASK 1 CLEANING REPORT
+================================================
+Input file: data/netflix_raw.csv
+Original rows: 8790
+Original columns: 10
+Exact duplicate rows found before removal: 0
+Duplicate show_id values found before removal: 0
+Rows after duplicate removal: 8790
+Columns after cleaning: 10
+
+Missing values by column (before -> after):
+- show_id: 0 -> 0
+- type: 0 -> 0
+- title: 0 -> 0
+- director: 0 -> 0
+- country: 0 -> 0
+- date_added: 0 -> 0
+- release_year: 0 -> 0
+- rating: 0 -> 0
+- duration: 0 -> 0
+- listed_in: 0 -> 0
+
+Cleaning actions:
+- Trimmed leading/trailing whitespace in text fields.
+- Converted blank strings to missing values.
+- Removed exact duplicate rows and duplicate show_id records (kept first).
+- Standardized type labels where needed.
+- Parsed date_added and formatted valid dates as YYYY-MM-DD.
+- Converted release_year to a nullable numeric integer.
+- Replaced missing director, country, rating, duration, and listed_in with 'Unknown'.
+- Saved cleaned dataset and missing-value report.
+
+Note: Missing show_id, date_added, or release_year values are not guessed; they remain missing and are documented.
